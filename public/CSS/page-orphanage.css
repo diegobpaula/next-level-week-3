@@ -38,6 +38,10 @@ aside.sidebar footer button {
   padding-left: 110px;
 }
 
+main {
+  flex: 1;
+}
+
 /* details */
 .orphanage-details {
   width: 70rem; /* 700px */
@@ -205,7 +209,7 @@ aside.sidebar footer button {
   align-items: center;
   justify-content: center;
 
-  transition: background-color .2s;
+  transition: background-color 0.2s;
 }
 
 .primary-button:hover {
